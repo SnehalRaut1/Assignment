@@ -1,4 +1,7 @@
 package assignmentToSend;
+
+
+
 //Assignment 39:write a program for multiple level inheritance with 4 parents  using interface?
    interface one
     {
