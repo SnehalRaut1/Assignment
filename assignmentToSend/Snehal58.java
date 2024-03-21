@@ -1,4 +1,4 @@
-package typecsting_program;
+package assignmentToSend;
 //Assignment 58:create a class with ur name and upcast to object class?
 public class Snehal58 extends Object 
 {

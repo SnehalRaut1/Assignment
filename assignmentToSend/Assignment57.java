@@ -1,4 +1,4 @@
-package typecsting_program;
+package assignmentToSend;
 //Assignment 57: write a program to convert  double into int data type?
 public class Assignment57 
 {

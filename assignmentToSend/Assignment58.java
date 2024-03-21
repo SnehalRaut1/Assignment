@@ -1,6 +1,6 @@
 package assignmentToSend;
 //Assignment 56:write a program to convert weight which is int into double?
-public class Assignment56
+public class Assignment58
 {
 	public static void main(String[] args) {
 		
