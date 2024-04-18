@@ -12,7 +12,7 @@ public static void main(String[] args) throws InterruptedException
 {
 	 ChromeDriver Driver=new ChromeDriver();
 	   Driver.manage().window().maximize();
-	   Driver.get("https://www.flipkart.com/");
+	   Driver.get("	");
 	   
 	   WebElement Search_TF=Driver.findElement(By.name("q"));
        Search_TF.sendKeys("mobile");

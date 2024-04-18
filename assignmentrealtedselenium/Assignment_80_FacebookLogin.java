@@ -4,6 +4,7 @@ package assignmentrealtedselenium;
 
 import org.openqa.selenium.By;
 
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -17,7 +18,7 @@ public static void main(String[] args)
 	Driver.get("https://www.facebook.com");
 	
 	WebElement Email=Driver.findElement(By.name("email"));
-	Email.sendKeys("snehal@123.com");
+	Email.sendKeys("7972378649");
 	
 	WebElement pass=Driver.findElement(By.name("pass"));
 	 pass.sendKeys("Ipl@2023");

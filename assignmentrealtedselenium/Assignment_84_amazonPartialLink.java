@@ -1,5 +1,6 @@
 package assignmentrealtedselenium;
 /*Assignment 84:"Launch amazon India
+
  * 
 Click on Customer Services link using partialLinkText locator"*/
 

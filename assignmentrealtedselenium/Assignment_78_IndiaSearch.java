@@ -1,10 +1,10 @@
 package assignmentrealtedselenium;
 import org.openqa.selenium.By;
 
+
 import org.openqa.selenium.WebElement;
 /* Assignment 78 :Launch an empty browser, 
-
- * Navigate to “google.com”, 
+* Navigate to “google.com”, 
  * Type India in search text field,
    Click on search button*/
 import org.openqa.selenium.chrome.ChromeDriver;

@@ -11,6 +11,7 @@ public static void main(String[] args)
 	Driver.manage().window().maximize();
 	Driver.get("https://www.flipkart.com");
    String title=Driver.getTitle();
+  
    System.out.println(title);
 }
 }

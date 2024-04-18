@@ -1,8 +1,10 @@
 package assignmentrealtedselenium;
 /*Assignment 85:"Launch google.com
+
 Type India using relative xpath"*/
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -23,7 +25,7 @@ public static void main(String[] args)
 	WebElement clik=Driver.findElement(By.xpath("(//input[@name='btnK'])[2]"));
 	clik.click();
 	
-	
+
 	
 }
 }

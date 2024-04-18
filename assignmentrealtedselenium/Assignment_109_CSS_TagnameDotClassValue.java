@@ -5,6 +5,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+//5.TAGNAME AND class VALUE syntax-> TN.Class_Vlaue
+
 public class Assignment_109_CSS_TagnameDotClassValue 
 {
 	public static void main(String[] args) 
