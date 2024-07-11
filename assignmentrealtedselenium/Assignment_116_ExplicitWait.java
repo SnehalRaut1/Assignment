@@ -22,10 +22,11 @@ public static void main(String[] args)
 	WebElement Search_tf1=Driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
 	
 	WebDriverWait w1=new WebDriverWait(Driver,Duration.ofSeconds(5));
-	w1.until(ExpectedConditions.titleIs("Google"));//application is fully loaded
+	//w1.until(ExpectedConditions.titleIs("Google"));//application is fully loaded
 	//w1.until(ExpectedConditions.titleIs("Manish"));//TimeOutException
-	//w1.until(ExpectedConditions.titleContains("Goo"));
+	w1.until(ExpectedConditions.titleContains("Goo"));
 	//w1.until(ExpectedConditions.alertIsPresent());
+//	w1.until(ExpectedConditions.);//application is fully loaded
 			
 	Search_tf1.sendKeys("India");
 	Search_tf1.sendKeys(Keys.ENTER);

@@ -13,6 +13,7 @@ public class Assignment_80_FacebookLogin
 public static void main(String[] args)
 {
 
+	
 	ChromeDriver Driver=new ChromeDriver();
 	Driver.manage().window().maximize();
 	Driver.get("https://www.facebook.com");
@@ -21,9 +22,9 @@ public static void main(String[] args)
 	Email.sendKeys("7972378649");
 	
 	WebElement pass=Driver.findElement(By.name("pass"));
-	 pass.sendKeys("Ipl@2023");
+	 pass.sendKeys("india123");
 	 
-	 WebElement Login=Driver.findElement(By.name("login"));
+	 WebElement Login=Driver.findElement(By.xpath("//button[@name='login']"));
 	 Login.click();
 
 }

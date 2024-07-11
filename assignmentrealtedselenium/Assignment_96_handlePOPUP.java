@@ -15,6 +15,8 @@ public static void main(String[] args)
 	Driver.get("file:///C:/Users/ssneh/OneDrive/Desktop/learningHTML1.html");
 	Driver.switchTo().alert().accept();//yes(it is ti handle UnhandledAlertException)
 	//Driver.switchTo().alert().dismiss();//no
+	
+	Driver.switchTo().alert().accept();
 
 	Driver.findElement(By.xpath("(/html/body/input)[1]")).sendKeys("snehal");
 	Driver.findElement(By.xpath("(/html/body/input)[2]")).sendKeys("hello");

@@ -12,6 +12,7 @@ public class Assignment117b_PArenytChildPOPUp
 	public static void main(String[] args)
 	{
 		
+		
 		ChromeDriver Driver=new ChromeDriver();
 		Driver.manage().window().maximize();
 		Driver.get("https://www.naukri.com/registration/createAccount?othersrcp=22636");
@@ -33,6 +34,9 @@ public class Assignment117b_PArenytChildPOPUp
 	    
 	   Driver.close();//it will close child window
 
+	   
+	   
+	   
 
 
 
